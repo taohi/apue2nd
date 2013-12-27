@@ -1,4 +1,4 @@
 apue2nd
 =======
 
-apue-2nd
+apue-second edition.
