@@ -242,5 +242,4 @@ err_doit(int errnoflag, int error, const char *fmt, va_list ap)
 	fflush(NULL);		/* flushes all stdio output streams */
 }
 
-
 #endif	/* _APUE_H */
