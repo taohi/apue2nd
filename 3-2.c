@@ -1,4 +1,7 @@
 #include "apue.h"
+<<<<<<< HEAD
+
+=======
 #include <fcntl.h>
 char buf1[] = "abcdefghij";
 char buf2[] = "ABCDEFGHIJ";
@@ -16,3 +19,4 @@ int main(void)
         err_sys("buf2 write error");
     exit(0);
 }
+>>>>>>> e6728f13953623566cda0407807b31ccb13e9326
