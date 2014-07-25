@@ -18,8 +18,8 @@ int main(void)
         err_sys("wait error");
     if((pid=fork())<0)
         err_sys("fork error");
-//    else if(pid == 0)
-//       if(execlp("echoall","echoall","only 1 arg",(char *)0)<0)
-//          err_sys("execlp error");
+    else if(pid == 0)
+       if(execlp("echoall","echoall","only 1 arg",(char *)0)<0)
+          err_sys("execlp error");
     exit(0);
 }
